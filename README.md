@@ -1,0 +1,1 @@
+# Assembly, arquitetura x86 
