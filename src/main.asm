@@ -1,4 +1,4 @@
-SECTION .data
+SECTION .data ;Dados
 num1 DD 30
 num2 DD 70
 num3 DD 99

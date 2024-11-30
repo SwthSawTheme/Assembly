@@ -1,0 +1,27 @@
+Temos a memoria principal e secundaria, ambas as memorias fisicas são
+endereçadas como memoria virtual. Apartir da memoria virtual temos os endereçamentos
+de memoria, e apartir de cada endereço existe segmentos, e podemos nos deslocar
+entre esses segmentos!
+
+
+Segmentos de um endereço;
+        -------------
+        |   Stack    |
+        ------------
+        | Free Space |
+        ------------
+        | Free Space |
+        -------------
+        |    Heap    |
+        -------------
+        | Unitialized|
+        | Data Segment|
+        | (.bss)      |
+        --------------
+        | Initialized |
+        | Data Segment|
+        | (.data)     |
+        --------------
+        | Code Segment|
+        | (.text)     |
+        --------------
