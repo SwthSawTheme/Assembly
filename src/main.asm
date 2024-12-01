@@ -12,7 +12,7 @@ main:
     MOV EAX, [num1]
     MOV EBX, [num2]
     MOV ECX, [num3]
-    ADD EAX,EBX ; NUM1 = NUM1 + NUM2
+    ADD EAX, EBX ; NUM1 = NUM1 + NUM2
     MOV [soma], EAX ; Salvando a variavel em soma
     SUB EAX, ECX ; Subtraindo o novo valor de EAX Guardado na soma por ECX
     MOV [subtract], EAX ; Guardando valor de EAX em subtract
